@@ -5,9 +5,9 @@
 }
 
 body{
-    background-color: #111;
+    background-color: rgb(26, 26, 26);
     color: #fff;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .container{
@@ -535,6 +535,19 @@ transform: translate(-50%, -50%);
 
     }
 
+    .clip img{
+      width: 160%;
+      margin-left: -25% !important;
+     
+  
+    }
+
+    .clipp img{
+      width: 160%;
+      margin-left: -25% !important;
+     
+  
+    }
 
     .netflixform input{
         padding: 2px 8px;
@@ -566,13 +579,26 @@ transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-left:1% ;
+    padding-right: 1%;
+    overflow-x: hidden;
+    width: fit-content;
   }
 
   #television-video{
-    top: 18%;
-    left: 17%;
-    width: 94%;
+    top: 17%;
+    left: -5%;
+    width: 118%;
     height: 44%;
+    
+  }
+
+  #devices-video{
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    
     
   }
 
@@ -612,12 +638,13 @@ transform: translate(-50%, -50%);
   .Features img{
     display: flex;
     justify-content: center;
-    
+    width: 90%;
     /* object-fit: contain;
     object-position: center; */
     /* align-self: center; */
     padding-left: 40px;
-    margin-right: 35px;
+    margin-right: 5%;
+    margin-left: -1%;
   
     /* max-width: 100%; */
     height: 360px;
@@ -627,6 +654,7 @@ transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
+    
     /* align-self: center;
     object-fit: contain; */
   }
